@@ -17,8 +17,8 @@ theme_settings:
   header_text: > #two or three lines to describe your site
      <p>현재 컨텐츠를 준비중입니다.<br><code>GitHub</code>, Wiki, 기타 관련 문서 제작예정입니다.</p>
   header_text_feature_image: assets/img/pexels/triangular.jpeg
-  footer_text: > © 2018 Damheo Lee
-   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+  footer_text: >
+   © 2018 Damheo Lee, Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout
