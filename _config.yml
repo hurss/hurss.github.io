@@ -14,8 +14,8 @@ theme_settings:
   gravatar: 007125065055ebb5ef0929cb087cc480 # Email MD5 hash
 
   # Header and footer text
-  header_text: > Doing a Maintanance on
-     <p><code>GitHub</code>, Wiki, and other documents.</p>
+  header_text: > #two or three lines to describe your site
+     <p>현재 컨텐츠를 준비중입니다.<br><code>GitHub</code>, Wiki, 기타 관련 문서 제작예정입니다.</p>
   header_text_feature_image: assets/img/pexels/triangular.jpeg
   footer_text: > © 2018 Damheo Lee
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
