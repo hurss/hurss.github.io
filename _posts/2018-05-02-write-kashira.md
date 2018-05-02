@@ -5,8 +5,6 @@ tags: [일본어]
 excerpt_separator: <!--more-->
 ---
 
-### 개요
-
 일본어 종조사 중에서 '역할어'([役割語](http://skinsui.cocolog-nifty.com/sklab/files/yakuwarigokaramitanihongotokyaranihongobunpogakkai.pdf), 킨스이 사토시(金水 敏)가 제안)로써 사용되는 종조사가 일본어에 남아 있는데 대표적으로 [てよだわ言葉](https://kijidasu.com/?p=45729)가 있다.
 <!--more-->
 이는 よくってよ, だわ, わね, よ와 같이 다이쇼 시기부터 쓰이기 시작하였다. 미즈모토 미츠미(水本光美)의 논문(2005) 및 공저자 논문(2007)에 따르면 드라마에서 빈번하게 쓰이는 반면, 현실에서는 그다지 쓰이지 않기 때문에 괴리감이 상당히 심하게 다가온다.
