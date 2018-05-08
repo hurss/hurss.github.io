@@ -74,3 +74,10 @@ text123			# Back-end Match
 ```bash
 wget --no-check-certificate IN -O OUT
 ```
+
+### 기타 유용한 팁
+
+비프음 끄기
+```bash
+setterm -blength 0
+```
