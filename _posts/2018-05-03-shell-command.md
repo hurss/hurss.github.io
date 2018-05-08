@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Linux Shell Command
-tags: [Linux]
+tags: [Linux,perl,python,주석,프로세스]
 excerpt_separator: <!--more-->
 ---
 Linux Shell Command 용법
@@ -13,7 +13,7 @@ Bash 기준으로 설명. 선언부에 ``#!/bin/sh``를 명시.
 
 ### 용법
 
-1. 반복문
+- 반복문
 
 ```bash
 for i in 1 2 3 4 5
@@ -29,7 +29,7 @@ echo $i
 done
 ```
 
-2. 문자열 처리
+- 문자열 처리
 
 파일명을 변경할 때 유용한 팁들
 ```bash
@@ -43,7 +43,6 @@ text
 echo ${i:2:2}	# 세 번째 파라미터는 남길 글자
 xt
 ```
-
 문자열 붙이기
 ```bash
 i="text123"
@@ -75,9 +74,53 @@ text123			# Back-end Match
 wget --no-check-certificate IN -O OUT
 ```
 
-### 기타 유용한 팁
+다른 방법으로는 ``.wgetrc``에 설정 파일을 만드는 것도 있다.
+```bash
+echo "check_certificate = off" >> ~/.wgetrc
+```
 
-비프음 끄기
+### 라인 조작
+- 라인 랜덤출력
+```bash
+shuf
+```
+- 임의의 글자넣기
+```bash
+echo -ne '\n' >> a.txt
+```
+
+### perl
+#### print the whole thing one at a time (perl 5)
+
+```perl
+for $i ( 0 .. $#AoA ) {
+    for $j ( 0 .. $#{ $AoA[$i] } ) {
+        print "elt $i $j is $AoA[$i][$j]\n";
+    }
+}
+```
+#### perl 주석
+```perl
+=pod
+=cut
+```
+로 범위지정
+
+### python
+python 2 or 3 사용시 다음을 명시
+```python
+from __future__ import print_function
+```
+
+### 기타 유용한 팁
+- 비프음 끄기
 ```bash
 setterm -blength 0
 ```
+
+- zombie process kill
+```bash
+ps -ef | grep defunct | awk '{print $3}' | xargs kill -9
+```
+
+- root 권한에서 killall5 사용금지 (시스템 강제종료)
