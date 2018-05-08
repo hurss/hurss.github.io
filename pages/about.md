@@ -14,7 +14,8 @@ tags: [About, CV]
 - 언어학
 - 음성학 (음운론, 음성공학)
 - 폰트 관련
-- 한중일 통합한자 독음달기 (CJK Ideograph Reading)
+- 한중일 통합한자 독음달기 ([CJK Ideograph Reading](https://github.com/leedheo/CJKReadings))
+- [문화어 목록 작성](https://gist.github.com/leedheo/8172e7e19e41415906d7d6447c0b8db1)
 
 ### 연구분야
 - 음성번역 (음성합성, 음성인식)
