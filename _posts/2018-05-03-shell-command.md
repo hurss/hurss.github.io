@@ -66,6 +66,16 @@ echo ${i/%123/456}	# 123을 456으로
 text123			# Back-end Match
 ```
 
+숫자 0으로 채우기 (padding)
+```bash
+for i in {1..100}
+do
+i=$(printf %01d $i)
+echo $i
+done
+```
+위와 같이 작성하면 ``0001, 0002, ..., 0999, 1000``과 같이 나온다.
+
 - [String Manupulation](https://www.tldp.org/LDP/abs/html/string-manipulation.html)
 
 ### wget 관련
