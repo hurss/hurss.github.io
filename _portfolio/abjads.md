@@ -4,8 +4,22 @@ title: Hangul & Abjads
 feature-img: "img/abjads.jpg"
 img: "img/abjads.jpg"
 date: 05 June 2018
-tags: [Lorem, Ipsum, Portfolio]
+tags: [유니코드, Portfolio]
 ---
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem <a>quia voluptas sit aspernatur</a> aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius <a>modi tempora incidunt</a> ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
-Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+### 들어가기에 앞서
+
+<a>아브자드</a>는 자모문자 표기체계로 모음을 생략할 수 있는 점이 특징이다. 이는 음운론적 암시 형태로 나타내며, 아브자드 문자를 사용하는 언어들은 아브자드에 모음을 나타낼 수도 있다. 여러 종류가 있지만 현존하는 것들 중에 아라비아 문자가 많은 비중을 차지한다.
+
+### 종류
+#### 서아시아
+##### 아라비아
+###### 샤무키
+##### 히브리 (이브릭)
+##### 시리아 (아람)
+##### 페니키아
+#### 서아프리카
+##### 은코
+
+### 참고문헌
+- [아브자드 (영어판 위키백과)](https://en.wikipedia.org/wiki/Abjad)

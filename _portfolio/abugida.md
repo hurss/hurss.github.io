@@ -4,8 +4,32 @@ title: Hangul & Abugida
 feature-img: "img/abugida.jpg"
 img: "img/abugida.jpg"
 date: 05 June 2018
-tags: [Lorem, Ipsum, Portfolio]
+tags: [유니코드, Portfolio]
 ---
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem <a>quia voluptas sit aspernatur</a> aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius <a>modi tempora incidunt</a> ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
-Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+### 들어가기에 앞서
+
+<a>아부기다</a>는 음절문자와 자모문자의 특성을 모두 지닌 표기체계이다. 각 자모마다 기본 모음을 담고 있고, 별도의 모음을 나타내려면 자모 상하좌우에 획을 더하거나 빼는 식으로 모음을 나타낸다. <a href="https://leedheo.github.io/2018/05/02/write-abugida.html">기술적 링크</a>
+
+### 종류
+#### 동아시아
+##### 타이 (태국)
+##### 미얀마
+##### 크메르
+##### 몽골 (만주)
+몽골문자 또는 만주문자는 왼쪽에서 오른쪽으로 세로쓰기를 원칙으로 한다. 일부 자모를 제외하면 각 자모는 모음에 따라 여러 모양으로 변화하는 것을 보인다.
+#### 남아시아
+##### 데바나가리
+##### 구르무키
+##### 벵골
+##### 오리야 (오디야)
+##### 타밀
+##### 텔루구
+##### 칸나다
+##### 말라얄람
+#### 동아프리카
+##### 에티오피아
+
+
+### 참고문헌
+- [아부기다 (영어판 위키백과)](https://en.wikipedia.org/wiki/Abugida)
