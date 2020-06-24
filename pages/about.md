@@ -8,6 +8,8 @@ tags: [About, CV]
 
 이담허 (Damheo Lee) leedheo@gmail.com
 
+티스토리 블로그 (Tistory Blog): [0fec.tistory.com](https://0fec.tistory.com)
+
 ### 관심분야
 - 다국어 처리 (문자 및 언어 관련 전반)
 - 유니코드 (문자코드, 인코딩)
@@ -32,4 +34,4 @@ tags: [About, CV]
 - 기타 외국어들 (태국어, 러시아어, 베트남어, 인도네시아어, 아랍어) (A1, 문자는 읽지만 간단한 회화 정도만 가능)
 
 ### 덧붙임
-본 블로그는 [Jekyll](http://jekyllrb.com/, MIT License) 테마를 사용하였습니다.
+본 블로그는 [Jekyll](http://jekyllrb.com/), MIT License 테마를 사용하였습니다.
