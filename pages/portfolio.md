@@ -1,8 +1,8 @@
 --- 
-layout: page
-title : Portfolio 
+layout: page 
+title : "Relation: Hangul and Other Characters"
 permalink: /portfolio/
-subtitle: "Projects I am working on" 
+subtitle: "The Art between Hangul and Other Characters" 
 feature-img: "assets/img/pexels/computer.jpeg"
 tags: [Archive]
 ---

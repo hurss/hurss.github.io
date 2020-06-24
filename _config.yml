@@ -2,7 +2,7 @@
 baseurl: ""
 url: "https://leedheo.github.io"
 title: Damheo Lee's Blog # site's title
-description: "ÇöÀç ÄÁÅÙÃ÷¸¦ ÁØºñÁßÀÔ´Ï´Ù." # used by search engines
+description: "í˜„ì¬ ì»¨í…ì¸ ë¥¼ ì¤€ë¹„ì¤‘ì…ë‹ˆë‹¤." # used by search engines
 
 
 # THEME-SPECIFIC CONFIGURATION
@@ -14,10 +14,10 @@ avatar: assets/img/triangle.png                         # Empty for no avatar in
 favicon: assets/favicon.ico                             # Icon displayed in the tab
 
 # Header and footer text
-header_text: <p>ÇöÀç ÄÁÅÙÃ÷¸¦ ÁØºñÁßÀÔ´Ï´Ù.<br><code>GitHub</code>, Wiki, ±âÅ¸ °ü·Ã ¹®¼­ Á¦ÀÛ¿¹Á¤ÀÔ´Ï´Ù.</p>  # Change Blog header text
+header_text: <p>í˜„ì¬ ì»¨í…ì¸ ë¥¼ ì¤€ë¹„ì¤‘ì…ë‹ˆë‹¤.<br><code>GitHub</code>, Wiki, ê¸°íƒ€ ê´€ë ¨ ë¬¸ì„œ ì œì‘ì˜ˆì •ì…ë‹ˆë‹¤.</p>  # Change Blog header text
 header_feature_image: assets/img/pexels/triangular.jpeg
 footer_text: >
-  ¨Ï 2018 Damheo Lee, Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+  â“’ 2018 Damheo Lee, Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
 # Blog
 excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
