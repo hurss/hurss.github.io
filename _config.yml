@@ -2,80 +2,43 @@
 baseurl: ""
 url: "https://leedheo.github.io"
 title: Damheo Lee's Blog # site's title
-description: "í˜„ì¬ ì»¨í…ì¸ ë¥¼ ì¤€ë¹„ì¤‘ì…ë‹ˆë‹¤." # used by search engines
+description: "ÇöÀç ÄÁÅÙÃ÷¸¦ ÁØºñÁßÀÔ´Ï´Ù." # used by search engines
 
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
-  # Meta
-  title: Damheo Lee's Blog # blog's title
-  avatar: assets/img/triangle.svg
-  favicon: assets/favicon.ico
-  gravatar: 007125065055ebb5ef0929cb087cc480 # Email MD5 hash
+# Meta
+title: Damheo Lee's Blog # blog's title
+description: "Damheo Lee's Blog"      # used by search engines
+avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
+favicon: assets/favicon.ico                             # Icon displayed in the tab
 
-  # Header and footer text
-  header_text: > #two or three lines to describe your site
-     <p>í˜„ì¬ ì»¨í…ì¸ ë¥¼ ì¤€ë¹„ì¤‘ì…ë‹ˆë‹¤.<br><code>GitHub</code>, Wiki, ê¸°íƒ€ ê´€ë ¨ ë¬¸ì„œ ì œì‘ì˜ˆì •ì…ë‹ˆë‹¤.</p>
-  header_text_feature_image: assets/img/pexels/triangular.jpeg
-  footer_text: >
-   Â© 2018 Damheo Lee, Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+# Header and footer text
+header_text: <p>ÇöÀç ÄÁÅÙÃ÷¸¦ ÁØºñÁßÀÔ´Ï´Ù.<br><code>GitHub</code>, Wiki, ±âÅ¸ °ü·Ã ¹®¼­ Á¦ÀÛ¿¹Á¤ÀÔ´Ï´Ù.</p>  # Change Blog header text
+header_feature_image: assets/img/pexels/triangular.jpeg
+footer_text: >
+  ¨Ï 2018 Damheo Lee, Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
-  # Icons
-  rss: true  # Make sure you created a feed.xml with feed.xml layout
-  email_address: "leedheo@gmail.com"
-  behance:
-  bitbucket:
-  dribbble:
-  facebook:
-  flickr:
-  gitlab:
-  github: "leedheo"
-  google_plus:
-  instagram:
-  keybase:
-  linkedin:  # Full URL
-  pinterest:
-  reddit:
-  soundcloud:
-  stack_exchange:  # Full URL
-  steam:
-  tumblr:
-  twitter: # "twitter username"
-  vimeo:
-  wordpress:
-  youtube:
+# Blog
+excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
+post_navigation: true
+color_image: /assets/img/lineart.png                    # A bit transparent for color posts.
 
-  # Scripts / Features 
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname:
-  katex: true # Enable if using math markup
-  portfolio: true
-  search: true
-  tags: true
-  
-  # Localization strings
-  str_follow_on: "Follow on"
-  str_rss_follow: "Follow RSS feed"
-  str_email: "Email"
-  str_next_post: "Next post"
-  str_previous_post: "Previous post"
-  str_next_page: "Next"
-  str_previous_page: "Prev"
-  str_continue_reading: "Continue reading"
-  str_javascript_required_disqus: "Please enable JavaScript to view comments."
-
-  # Colours, typography and padding
-  # Open the "_sass > base" folder, and open "_variables.scss"
-  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
-
-  # Post navigation
-  post_navigation: true
-  
+# Features
+katex: true                                             # Enable if using math markup
+google_analytics:                                       # Tracking ID, e.g. "UA-000000-01"
+cookie_consent: false                                   # To respect the usage of cookies
+cookie_consent_disclaimer: We would like to use third party cookies and scripts to improve the functionality of this website.
+disqus_shortname:                                       # Your discus shortname for comments
+layout_variables:                                       # Open the "_sass > base" folder, and open "_variables.scss"
+footer_icons:                                           # In _data/social.yml
+share_buttons:                                          # In _data/social.yml
+authors:                                                # In _data/authors.yml
+language:                                               # In _data/language.yml
 
 # PAGINATION
 paginate: 10
-paginate_path: "blog/page:num"
-
+paginate_path: "/blog/page:num"
 
 # PORTFOLIO
 collections:
@@ -83,13 +46,15 @@ collections:
     output: true
     permalink: /:collection/:name
 
-
 # BUILD SETTINGS
 markdown: kramdown
 highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
-plugins: [jekyll-paginate, jekyll-seo-tag]
-#theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
-exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png"]
+plugins: [jekyll-paginate, jekyll-seo-tag]	#, jekyll-feed
+exclude: [".jekyll-cache", "Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", ".idea", "vendor/*", ".travis.yml",
+          "LICENSE", "README.md", "screenshot.png", "assets/package.json", "assets/node_modules", "assets/gulpfile.js"]
+
+# theme: type-on-strap                                  # if using the theme as a jekyll theme gem
+remote_theme: sylhare/Type-on-Strap                     # If using as a remote_theme in github
